@@ -15,7 +15,7 @@ characters = ['@', '#', '$', '%', '&', '?']
 pass_len = int(input('How lengthy do you want your password to be : '))
 
 tempy, tempz = 0, 0
-
+#test
 tempx = rr.randint(2, pass_len-1)                           # alphabets
 
 print(f'\nAlphabets : {tempx}')
