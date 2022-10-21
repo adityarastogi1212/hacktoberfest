@@ -1,0 +1,45 @@
+//Merging 2 Arrays without extra space
+
+//Java Solution
+
+
+class Solution
+{
+    //Function to merge the arrays.
+    public static void merge(long arr1[], long arr2[], int n, int m) 
+    {        
+        int i;
+        int j;
+        int ntot;
+        
+        ArrayList<Long> tot = new ArrayList<>();
+        
+        for (i=0;i<=n-1;i++) {
+                tot.add(new Long(arr1[i]));
+        }
+        
+        for (i=0;i<=m-1;i++) {
+                tot.add(new Long(arr2[i]));
+        }
+        
+        ntot = tot.size();
+        
+        Collections.sort(tot);
+  
+        for(i=0;i<=n-1;i++) {
+            arr1[i] = tot.get(i).intValue();
+        }
+   
+        int k=0;
+        
+          for(i=n;i<=ntot-1;i++) {
+            arr2[k] = tot.get(i).intValue();
+            k++;
+        } 
+        
+    }    
+        
+}
+
+
+}
