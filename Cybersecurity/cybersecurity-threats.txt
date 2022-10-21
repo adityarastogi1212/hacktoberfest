@@ -1,0 +1,23 @@
+Types of Cyber Security Threats:
+
+SQL Injection Attack
+Ransomware
+Zero-Day Exploit
+Password Attack
+Cross Site Attack
+Malware Attack
+Cryptojacking
+Man-in-the-Middle Attack
+Phishing Attack
+Traffic Interception
+DNS Poisioning Attack
+Social Engineering
+Trojan Virus
+IOT Attack
+Cyber-Physical Attack
+Water Hole Attack
+Drive-By Attack
+State-Sponsored Attack
+Backdoor Attack
+DDoS Attack
+
